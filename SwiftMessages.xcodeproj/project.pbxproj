@@ -168,6 +168,7 @@
 		86B48AFA1D5A41C900063E2B /* SwiftMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessagesTests.swift; sourceTree = "<group>"; };
 		86B48AFC1D5A41C900063E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86BBA8F81D5E01FC00FE8F16 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardView.xib; path = Resources/CardView.xib; sourceTree = "<group>"; };
+		A6F448CD24CCC4B500344EF0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,8 +346,9 @@
 		86B48B031D5A41E500063E2B /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				86B48AEE1D5A41C900063E2B /* SwiftMessages.h */,
+				A6F448CD24CCC4B500344EF0 /* Config.xcconfig */,
 				86B48AF01D5A41C900063E2B /* Info.plist */,
+				86B48AEE1D5A41C900063E2B /* SwiftMessages.h */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -691,6 +693,7 @@
 		};
 		86B48AFF1D5A41C900063E2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F448CD24CCC4B500344EF0 /* Config.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
